@@ -30,7 +30,7 @@ if __name__ == "__main__":
     p2 = multiprocessing.Process(target=task2)
 
     p1.start()
-    time.sleep(10)
+    time.sleep(5)
     p2.start()
 
     p1.join()
